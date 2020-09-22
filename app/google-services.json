@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "667793859590",
+    "firebase_url": "https://aquasource-f5e44.firebaseio.com",
+    "project_id": "aquasource-f5e44",
+    "storage_bucket": "aquasource-f5e44.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667793859590:android:58cebf89a3b45e4ceb8f87",
+        "android_client_info": {
+          "package_name": "com.purdue.aquasource"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667793859590-o1vcunhlqe559bvuuetrkj6hels7bisl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbkcA22JD0-r8h4Xu6dcMGMwHpSKyvFc8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667793859590-o1vcunhlqe559bvuuetrkj6hels7bisl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
