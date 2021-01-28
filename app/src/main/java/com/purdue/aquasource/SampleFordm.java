@@ -24,7 +24,7 @@ import me.riddhimanadib.formmaster.model.FormElementTextSingleLine;
 import me.riddhimanadib.formmaster.model.FormHeader;
 
 public class SampleFordm extends AppCompatActivity {
-    private me.riddhimanadib.formmaster.FormBuilder FormBuilder;
+    private me.riddhimanadib.formmaster.FormBuilder formBuilder;
     private RecyclerView recyclerView;
     FormElementTextEmail element11;
     @Override
@@ -33,12 +33,12 @@ public class SampleFordm extends AppCompatActivity {
         setContentView(R.layout.activity_sample_fordm);
         recyclerView =  findViewById(R.id.recyclerView2);
         setupForm();
-        element11.setValue("testdsfs");
+       // element11.setValue("testdsfs");
     }
     private void setupForm() {
 
 
-        FormBuilder = new FormBuilder(this, recyclerView);
+        formBuilder = new FormBuilder(this, recyclerView);
 
         FormHeader header1 = FormHeader.createInstance("Personal Info");
         element11 = FormElementTextEmail.createInstance().setTitle("Email").setHint("Enter Email");
@@ -83,4 +83,5 @@ public class SampleFordm extends AppCompatActivity {
         FormBuilder.addFormElements(formItems);
 
     }
+
 }
